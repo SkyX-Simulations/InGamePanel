@@ -1,0 +1,22 @@
+<AssetPackage Name="{project-name}" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SPB</ContentType>
+		<Title>{project-name}</Title>
+		<Manufacturer/>
+		<Creator>{project-creator}</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="{project-name}">
+			<Type>SPB</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\</AssetDir>
+			<OutputDir>Packages\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>

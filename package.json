@@ -1,0 +1,13 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": ".\\Project\\MSFSLayoutGenerator.exe",
+    "fspackagetool": "C:\\Windows\\System32\\cmd.exe /C start Project\\fspackagetool.exe"
+  },
+  "keywords": [],
+  "author": "Helbert Gomes",
+  "license": "ISC"
+}

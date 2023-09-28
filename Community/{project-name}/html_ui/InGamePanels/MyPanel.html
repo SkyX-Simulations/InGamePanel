@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Templates from Microsoft Flight Simulator -->
+    <link rel="stylesheet" href="/SCSS/common.css" />
+    <link rel="stylesheet" href="/templates/virtualScroll/virtualScroll.css">
+
+    
+    <script type="text/javascript" src="/JS/coherent.js"></script>
+    <script type="text/javascript" src="/JS/common.js"></script>
+    <script type="text/javascript" src="/JS/dataStorage.js"></script>
+    <script type="text/javascript" src="/JS/buttons.js"></script>
+    <script type="text/javascript" src="/JS/simvar.js"></script>
+    <script type="text/javascript" src="/JS/Services/ToolBarPanels.js"></script>
+
+    <link rel="import" href="/templates/ingameUi/ingameUi.html" />
+    <link rel="import" href="/templates/ingameUiHeader/ingameUiHeader.html" />
+    <link rel="import" href="/templates/checkbox/checkbox.html" />
+    <link rel="import" href="/templates/NewPushButton/NewPushButton.html" />
+    <link rel="import" href="/templates/ToggleButton/ToggleButton.html" />
+    <link rel="import" href="/templates/tabMenu/tabMenu.html" />
+    <link rel="import" href="/templates/NewListButton/NewListButton.html" />
+    <link rel="import" href="/templates/ToggleButton/ToggleButton.html" />
+
+    <!-- Scripts from Microsoft Flight Simulator -->
+
+    <script type="text/javascript" src="/Pages/VCockpit/Instruments/Shared/BaseInstrument.js"></script>
+    <script type="text/javascript" src="/JS/debug.js"></script>
+   
+     <!-- Project file(s). -->
+     <link rel="stylesheet" href="./MyPanel.css" />
+     <script defer="defer" src="./MyPanel.js"></script>
+</head>
+
+<body id="my-panel" class="border-box">
+    <my-panel>
+        <ingame-ui id="my-panel-frame" 
+        panel-id="MyPanel" 
+        class="ingameUiFrame panelInvisible" 
+        title="Perna do Vento" 
+        content-fit="true" 
+        min-width="50"
+        min-height="50">
+            <section id="MainDisplay" />
+        </ingame-ui>
+    </my-panel>
+</body>
+</html>

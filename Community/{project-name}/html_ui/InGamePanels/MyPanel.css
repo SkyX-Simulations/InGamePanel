@@ -1,0 +1,18 @@
+#my-panel {
+    --headerSize: calc(var(--screenHeight)*0.03472px)
+  }
+  
+  #my-panel ingame-ui#my-panel-frame {
+    height:100%;
+    width:100%
+  }
+  
+  #my-panel ingame-ui#my-panel-frame #MainDisplay {
+    display: flex;
+    flex: 1 1 auto;
+    position: relative;
+    height: calc(100% - var(--headerSize)*2);
+    width: 100%
+  }
+  
+  /*# sourceMappingURL=main.fdb09426.css.map*/

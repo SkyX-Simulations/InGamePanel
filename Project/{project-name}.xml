@@ -1,0 +1,7 @@
+<Project Version="2" Name="perna-do-vento" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\{project-name}.xml</Package>
+	</Packages>
+</Project>
