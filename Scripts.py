@@ -1,8 +1,11 @@
 import os
 import shutil
 
+# e.g: skyx-simulations
 PROJECT_NAME = "{project-name}"
+# e.g: Helbert Gomes
 PROJECT_CREATOR = "{project-creator}"
+# e.g: SkyX Simulations
 PROJECT_TITLE = "{project-title}"
 
 def setup():
@@ -42,6 +45,7 @@ def updateInfo():
                 content = content.replace('{project-creator}', PROJECT_CREATOR)
                 content = content.replace('{project-title}', PROJECT_TITLE)
                 content = content.replace('{project-id}', PROJECT_NAME + "-panel")
+                content = content.replace('{project-icon}', PROJECT_NAME.replace("-", "_").upper())
 
                 with open(file_path, 'w') as f:
                     f.write(content)
