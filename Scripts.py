@@ -32,6 +32,10 @@ def updateFiles():
             if '{project-name}' in file:
                 new_name = file.replace('{project-name}', PROJECT_NAME)
                 os.rename(os.path.join(root, file), os.path.join(root, new_name))
+            
+            if '{project-icon}' in file:
+                new_name = file.replace('{project-icon}', PROJECT_NAME.replace("-", "_").upper())
+                os.rename(os.path.join(root, file), os.path.join(root, new_name))
 
 def updateInfo():
     for root, dirs, files in os.walk(os.getcwd()):
@@ -45,7 +49,6 @@ def updateInfo():
                 content = content.replace('{project-creator}', PROJECT_CREATOR)
                 content = content.replace('{project-title}', PROJECT_TITLE)
                 content = content.replace('{project-id}', PROJECT_NAME + "-panel")
-                content = content.replace('{project-icon}', PROJECT_NAME.replace("-", "_").upper())
 
                 with open(file_path, 'w') as f:
                     f.write(content)
