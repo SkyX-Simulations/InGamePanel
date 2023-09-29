@@ -1,4 +1,4 @@
-<Project Version="2" Name="perna-do-vento" FolderName="Packages">
+<Project Version="2" Name="{project-name}" FolderName="Packages">
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<Packages>
