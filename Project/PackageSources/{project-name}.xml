@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <SimBase.Document Type="InGamePanels" version="1,0">
   <Filename>{project-name}.spb</Filename>
-  <InGamePanels.InGamePanelDefinition id="MyPanel" Name="{project-title}" url="html_ui/InGamePanels/{project-name}/MyPanel.html" resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" defaultHeight="36" defaultTop="33" defaultRight="2" icon="ICON_TOOLBAR_MY_PANEL.svg" buttonVisible="true">
+  <InGamePanels.InGamePanelDefinition id="{project-id}" Name="{project-title}" url="html_ui/InGamePanels/{project-name}/MyPanel.html" resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" defaultHeight="36" defaultTop="33" defaultRight="2" icon="ICON_TOOLBAR_MY_PANEL.svg" buttonVisible="true">
   </InGamePanels.InGamePanelDefinition>
 </SimBase.Document>

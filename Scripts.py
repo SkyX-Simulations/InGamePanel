@@ -41,6 +41,7 @@ def updateInfo():
                 content = content.replace('{project-name}', PROJECT_NAME)
                 content = content.replace('{project-creator}', PROJECT_CREATOR)
                 content = content.replace('{project-title}', PROJECT_TITLE)
+                content = content.replace('{project-id}', PROJECT_NAME + "-panel")
 
                 with open(file_path, 'w') as f:
                     f.write(content)
