@@ -1,6 +1,6 @@
 # InGamePanel
 
-The aim of this project is to streamline the creation of InGamePanels for Microsoft Flight Simulator 2020. After modifying the 'Scripts.py' file with the project's Name, Creator, and the title of the window to be displayed, the project will automatically incorporate this information and launch Microsoft Flight Simulator 2020 to build the project, generating the '.spb' file. The project will be ready for export to Microsoft Flight Simulator 2020.
+The aim of this project is to streamline the creation of `InGamePanels` for `Microsoft Flight Simulator 2020`. After modifying the `Scripts.py` file with the project's Name, Creator, and the title of the window to be displayed, the project will automatically incorporate this information and launch `Microsoft Flight Simulator 2020` to build the project, generating the `.spb` file. The project will be ready for export to `Microsoft Flight Simulator 2020`.
 
 # Requirements
 
